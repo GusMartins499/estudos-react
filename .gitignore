@@ -1,5 +1,5 @@
 # Ignora a pasta node_modules
 node_modules/
-./React/node_modules
+./react/node_modules
 ./calculadora/node_modules
 

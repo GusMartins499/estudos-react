@@ -35,8 +35,8 @@ export default class Calculator extends Component {
         if (n === '.' && this.state.displayValue.includes('.')) {
             return
         }
-        const clearDisplay = this.state.displayValue === '0' 
-        || this.state.clearDisplay
+        const clearDisplay = this.state.displayValue === '0'
+            || this.state.clearDisplay
         const currentValue = clearDisplay ? '' : this.state.displayValue
         const displayValue = currentValue + n
         this.setState({ displayValue, clearDisplay: false })

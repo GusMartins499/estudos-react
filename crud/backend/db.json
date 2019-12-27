@@ -1,11 +1,3 @@
 {
-    "users": [{
-        "id": 1,
-        "name":"Gustavo Martins",
-        "email":"gustavosm994@gmail.com"
-    },{
-        "id": 2,
-        "name":"Laura Barreto",
-        "email":"laurabarretom@gmail.com"
-    }]
+  "users": []
 }

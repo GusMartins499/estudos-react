@@ -1,5 +1,7 @@
 # Ignora a pasta node_modules
-node_modules/
+./node_modules/
 ./React/node_modules/
 ./calculadora/node_modules/
-
+./crud/backend/node_modules/
+./crud/frontend/node_modules/
+./todo-app/backend/node_modules/

@@ -4,6 +4,7 @@
     --header-heigh: 100px;
     --aside-width: 255px;
     --footer-heigh: 40px;
+    --menu-top-heigh: 70px;
 
     --shadow:
         0 2px 23px 0 rgba(0,0,0,0.1),
@@ -51,4 +52,36 @@ main.content {
 
 footer.footer {
     grid-area: footer;
+}
+
+@media(max-width: 768px){
+    .app{
+        grid-template-rows:
+            var(--header-heigh)
+            var(--menu-top-heigh)
+            1fr
+            var(--footer-heigh);
+        grid-template-columns: var(--aside-width) 1fr;
+        grid-template-areas: 
+        "logo header"
+        "menu menu"
+        "content content"
+        "footer footer";
+    }
+}
+
+@media(max-width: 576px){
+    .app {
+        grid-template-rows:
+            var(--logo-heigh)
+            var(--menu-top-heigh)
+            1fr
+            var(--footer-heigh);
+            grid-template-columns: 1fr;
+            grid-template-areas: 
+            "logo"
+            "menu"
+            "content"
+            "footer";
+    }
 }

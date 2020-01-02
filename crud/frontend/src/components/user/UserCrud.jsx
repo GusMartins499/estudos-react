@@ -41,7 +41,7 @@ export default class UserCrud extends Component {
 
     getUpdateList(user, add = true) {
         const list = this.state.list.filter(u => u.id !== user.id)
-        if (user) list.unshift(user)
+        if (add) list.unshift(user)
         return list
     }
 

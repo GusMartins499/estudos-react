@@ -1,4 +1,5 @@
 # Ignora a pasta node_modules
+/.vscode/
 /node_modules/
 /React/node_modules/
 /calculadora/node_modules/

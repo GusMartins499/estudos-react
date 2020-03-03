@@ -28,7 +28,7 @@ class itemList extends Component {
                     placeholder='Informe o nome' readOnly={this.props.readOnly} /></td>
                 <td><Field name={`${this.props.field}[${index}].value`} component={Input}
                     placeholder='Informe o valor' readOnly={this.props.readOnly} /></td>
-                <IF teste={this.props.showStatus}>
+                <IF test={this.props.showStatus}>
                     <td><Field name={`${this.props.field}[${index}].status`} component={Input}
                         placeholder='Informe o status' readOnly={this.props.readOnly} /></td>
                 </IF>
@@ -60,7 +60,7 @@ class itemList extends Component {
                             <tr>
                                 <th>Nome</th>
                                 <th>Valor</th>
-                                <IF teste={this.props.showStatus}>
+                                <IF test={this.props.showStatus}>
                                     <th>Status</th>
                                 </IF>
                                 <th className='table-actions'>Ações</th>

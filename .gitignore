@@ -8,3 +8,4 @@
 /my-money-app/node_modules/
 /my-money-app/frontend/node_modules/
 /my-money-app/backend/node_modules/
+/my-money-app/src/.env/

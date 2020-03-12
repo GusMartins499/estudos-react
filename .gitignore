@@ -11,5 +11,7 @@
 /my-money-app/backend/src/env/
 /.env
 /.env/
+*.env
+
 
 
